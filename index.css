@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100&display=swap');
+
+
+
+
+h1{
+    font-family: 'Cinzel', serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content:flex-start;
+
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#card{
+    background-image: linear-gradient(to bottom right, white, rgb(223, 113, 131),black);
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border: solid 2px black;
+    align-items: center;
+}
+#form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+
+input{
+   background-color: gray;
+    width: 60px;
+   
+}
+button{
+    background-color: gray;
+    width: 60px;
+    height: 40px;
+}
+
+select{
+    background-color:lightgreen;
+    width: 60px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+
+}
